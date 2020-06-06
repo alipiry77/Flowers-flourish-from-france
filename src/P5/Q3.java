@@ -9,12 +9,12 @@ public class Q3 {
         while (i1<100)
         {
             if (i1 % 2 == 0) {
-                a[i1] = j;
-                j--;
-            }
-            else {
                 a[i1] = i;
                 i++;
+            }
+            else {
+                a[i1] = j;
+                j--;
             }
             i1++;
         }
