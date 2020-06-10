@@ -7,6 +7,10 @@ public class p {
             String line = sc.nextLine();
             if (line.equals("*"))
                 break;
+            if (line.isEmpty()) {
+                System.out.println("Please Write right word");
+                continue;
+            }
             if (isGood(line))
             {
                 System.out.println("Y");
